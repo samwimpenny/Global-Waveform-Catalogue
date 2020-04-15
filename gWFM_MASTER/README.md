@@ -2,14 +2,16 @@
 
 ## Catalogue Key:
 
-id   = Reference number for the event
+id   = Reference number for the event - this reference matches the icons
+       included in gWFM_ICONS.
 
-wlon = Longitude of the event quoted in the waveform-modelling literature.
+wlon = Longitude of the event quoted in the literature.
 
-wlat = Latitude of the event quoted in the waveform-modelling literature.
+wlat = Latitude of the event quoted in the literature.
 
-wzc  = Waveform-modelled depth of the event - either hypocentral or centroid.
-       All depths are given as depth below the plate surface, not sea level.
+wzc  = Waveform-modelled depth of the event, which can be either hypocentral or centroid
+       depending on the method used. All depths are given as depth below the plate surface,
+       not sea level.
 
 mth  = Waveform-modelling method used to determine the depth. This can be either:
 
@@ -20,25 +22,24 @@ mth  = Waveform-modelling method used to determine the depth. This can be either
              or short-period waveforms, typically fitting P,pP,sP
              but not solving explicitly for the mechanism. Yields a
              hypocentral depth.
-       INS = InSAR - will eventually be stripped out.
        REG = Waveform modelling of body waves measured at regional distances.
+       INS = InSAR - will eventually be stripped out.
 
-ilon  = Longitude in the ISC-EHB bulletin.
+ilon  = Longitude in the ISC-EHB bulletin [from Engdahl et al., 2020].
 
 ilat  = Latitude in the ISC-EHB bulletin.
 
 izc   = Hypocentral depth determined by the ISC-EHB bulletin.
 
 mth   = ISC-EHB bulletin code for the method by which the depth is determined.
-        The string is a combination of three upper-case letters of the form:
+        The string is a combination of three upper-case letters and one
+        lower case letter from the following:
 
         HEQ = origin time & hypocenter fixed
         DEQ = depth free (sedep <= 15 km)
         FEQ = depth fixed by review
         LEQ = depth fixed by program (sedep > 15 km)
         XEQ = poor solution (ser > 35 km)
-
-        and a lower-case letter of the form:
 
         d = depth constrained by depth phases
             with sedep < 5 km and at least 3
@@ -73,11 +74,11 @@ mth   = ISC-EHB bulletin code for the method by which the depth is determined.
         z = explosion or earthquake location known
             to z km where z is a number from 0-9
 
-clon  = Longitude from the global CMT catalogue.
+clon  = Longitude from the global CMT catalogue [Dziewonski et al., 1981].
 
 clat  = Latitude from the global CMT catalogue.
 
-czc   = Centroid depth determined by the CMT catalogue.
+czc   = Centroid depth determined by the global CMT catalogue.
 
 mth   = Method by which the CMT depth was determined. Can be either:
 
@@ -92,9 +93,9 @@ dp    = Nodel plane dip determined from waveform modelling.
 
 rk    = Nodal plane rake determined from waveform modelling.
 
-mth   = Mechanism by which the strike, dip and rake have beeen determined.
-        The code string is the same as for the depth, however there is also
-        the option of:
+mth   = Mechanism by which the strike, dip and rake have been determined by
+        the analyst. The code string is the essentially the same as that
+        used for the depth, except with a few additions:
 
         BWF = Long-period body-waveform modelling of event mechanism,
               depth, source-time function and magnitude as a point
@@ -103,10 +104,10 @@ mth   = Mechanism by which the strike, dip and rake have beeen determined.
               or short-period waveforms, typically fitting P,pP,sP
               but not solving explicitly for the mechanism. Yields a
               hypocentral depth.
-        INS = InSAR - will eventually be stripped out.
         REG = Waveform modelling of body waves measured at regional distances.
         FM  = P-wave first motion polarities used to determine the earthquake
               mechanism.
+        INS = InSAR - will eventually be stripped out.
 
 st    = Nodal plane strike determined by the global CMT.
 
@@ -125,13 +126,20 @@ mty   = Magnitude type: Mw = moment magnitude, mb = body-wave magnitude
 
 reference = Source of the waveform-modelling study.
 
-## References:
+# A note on the reference:
 
 - References are not necessarily where the earthquake was first
   modelled, but where the information came from in the catalogue.
   Therefore, you may need to follow a paper trail to find the
-  original modelling.
+  original modelling. Eventually we will be trying to include
+  figures of the original modelling with the catalogue.
 
 - Upublished theses: Most of the theses mentioned are in the library
   at the Bullard laboratories and may become available through the
   University of Cambridge Apollo website in due course.
+
+## References:
+
+- ISC-EHB database is taken from: http://www.isc.ac.uk/isc-ehb/
+- global CMT data is taken from: https://www.globalcmt.org/CMTfiles.html
+- Jackson, J., Priestley, K., Allen, M., & Berberian, M. (2002). Active tectonics of the South Caspian Basin. Geophysical Journal International, 148(2), 214–245.

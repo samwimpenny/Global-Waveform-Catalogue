@@ -1,4 +1,4 @@
-# README for the Global Waveform Catalogue
+# README for the Global Waveform Catalogue v1.0
 
 ## Catalogue Key:
 

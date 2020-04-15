@@ -1,8 +1,6 @@
-### README for the gWFM - a catalogue of earthquakes
-### that have been modelled manually using waveform-
-### fitting to retrieve careful depth estimates.
+# README for the Global Waveform Catalogue
 
-### Header Key:
+## Catalogue Key:
 
 id   = Reference number for the event
 
@@ -98,6 +96,15 @@ mth   = Mechanism by which the strike, dip and rake have beeen determined.
         The code string is the same as for the depth, however there is also
         the option of:
 
+        BWF = Long-period body-waveform modelling of event mechanism,
+              depth, source-time function and magnitude as a point
+              source. Usually using programs like MT5. Yields a centroid depth.
+        DP  = Waveform modelling of the vertical-component broadband
+              or short-period waveforms, typically fitting P,pP,sP
+              but not solving explicitly for the mechanism. Yields a
+              hypocentral depth.
+        INS = InSAR - will eventually be stripped out.
+        REG = Waveform modelling of body waves measured at regional distances.
         FM  = P-wave first motion polarities used to determine the earthquake
               mechanism.
 
@@ -118,7 +125,7 @@ mty   = Magnitude type: Mw = moment magnitude, mb = body-wave magnitude
 
 reference = Source of the waveform-modelling study.
 
-### References:
+## References:
 
 - References are not necessarily where the earthquake was first
   modelled, but where the information came from in the catalogue.

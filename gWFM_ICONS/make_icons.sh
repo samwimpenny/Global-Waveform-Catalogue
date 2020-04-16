@@ -61,6 +61,5 @@ done
 # Cleaniing
 rm -rf gmt.*
 
-# Converting to .tar to upload
-tar -cvzf ${icondir}.tar.gz ${icondir}
-rm -rf ${icondir}
+# Cleaniing
+tar -cvzf ${icondir}.tar.gz ${icondir}/*.png

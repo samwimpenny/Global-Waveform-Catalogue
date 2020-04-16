@@ -37,6 +37,7 @@ for i in `seq $headlen $num`;do
     gmt psconvert ${icondir}/${id}.ps -TG -A
     rm -rf ${icondir}/${id}.ps
 
+  # Blue if it's not full BWF modelling
   elif [[ $strike != "-" && $method != "BWF" ]];then
 
     echo 0.5 0.5 1 $strike $dip $rake 5.0 0 0 | \
@@ -45,6 +46,7 @@ for i in `seq $headlen $num`;do
     gmt psconvert ${icondir}/${id}.ps -TG -A
     rm -rf ${icondir}/${id}.ps
 
+  # Just a dot if its depth phases.
   elif [[ $strike == "-" ]];then
 
     echo 0.5 0.5 | \
@@ -56,6 +58,9 @@ for i in `seq $headlen $num`;do
 
 done
 
+# Cleaniing
 rm -rf gmt.*
+
+# Converting to .tar to upload
 tar -cvzf ${icondir}.tar.gz ${icondir}
 rm -rf ${icondir}

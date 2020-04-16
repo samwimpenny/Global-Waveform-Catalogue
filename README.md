@@ -2,9 +2,9 @@
 
 ## Catalogue Overview:
 
-This is the central repository for the Global Waveform Catalogue (gWFM) v1.0, which is a database of point-source fault-plane solutions and focal depths for moderate-magnitude earthquakes that have been modelled by an analyst using synthetic seismograms. Most earthquakes have been modelled using the program MT5 [see McCaffrey et al., 1991, McCaffrey and Abers 1988], which is described in detail by Molnar and Lyon-Caen 1989 and Taymaz et al., 1990. A number of smaller earthquakes (Mw < 5.3) have also been studied by modelling the P,pP and sP phases on vertical-component short-period or broadband seismograms [e.g. Maggi et al., 2000].
+This is the central repository for the Global Waveform Catalogue (gWFM) v1.0, which is a database of point-source fault-plane solutions and focal depths for moderate-magnitude earthquakes that have been modelled by an analyst using synthetic seismograms. Most earthquakes have been modelled using the program MT5 [see McCaffrey et al., 1991, McCaffrey and Abers 1988], which is described in detail by Molnar and Lyon-Caen 1989 and Taymaz et al., 1990. A number of smaller earthquakes (Mw < 5.3) have also been studied by modelling the P, pP and sP phases on vertical-component short-period or broadband seismograms [e.g. Maggi et al., 2000].
 
-Most of the earthquakes in this database come from the literature, however there are also a number of solutions that are as yet unpublished. The purpose of including unpublished solutions is to prevent people re-inventing the wheel.
+Most of the earthquakes in this database come from the literature, with some solutions from theses that are available online.
 
 The database is complimentary to other global catalogues of earthquakes, such as the global centroid moment tensor (gCMT) catalogue and the ISC-EHB catalogue. What this catalogue brings to the table are the well-constrained focal depths of moderate-magnitude earthquakes. A short manuscript describing origins of the gWFM database and how it compares to the gCMT and ISC-EHB is currently in prep.
 
@@ -15,6 +15,14 @@ The easiest way to download the catalogue is using git. Run the following comman
 ```
 git clone https://github.com/samwimpenny/Global-Waveform-Catalogue.git
 ```
+
+Then to keep up to date with new additions, run:
+
+```
+git pull
+```
+
+from within the cloned directory.
 
 Alternatively, you could directly copy the catalogue file from the directory gWFM_MASTER/.
 

@@ -1,6 +1,6 @@
 # README for the Global Waveform Catalogue v1.0
 
-## Catalogue Key:
+## Catalogue Key - in column order:
 
 id   = Reference number for the event - this reference matches the icons
        included in gWFM_ICONS.
@@ -126,7 +126,7 @@ mty   = Magnitude type: Mw = moment magnitude, mb = body-wave magnitude
 
 reference = Source of the waveform-modelling study.
 
-# A note on the reference:
+### A note on the reference:
 
 - References are not necessarily where the earthquake was first
   modelled, but where the information came from in the catalogue.

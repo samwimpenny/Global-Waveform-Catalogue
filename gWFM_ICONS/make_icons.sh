@@ -57,5 +57,5 @@ for i in `seq $headlen $num`;do
 done
 
 rm -rf gmt.*
-tar -cvf ${icondir}.tar ${icondir}
+tar -cvzf ${icondir}.tar.gz ${icondir}
 rm -rf ${icondir}

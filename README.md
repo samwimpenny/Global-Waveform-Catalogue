@@ -36,6 +36,15 @@ If you have tables of waveform-modelled earthquakes that are not included in the
 
     yyyymmdd hhmm longitude latitude depth strike dip rake magnitude reference
 
+## Quality Control and Errors in the Catalogue:
+
+The vast majority of this catalogue has been typed by hand, but there may remain some typographical errors. If you find any, please email sew57@cam.ac.uk with the line in error and what you think it should read.
+
+The quality control has included:
+1) Checking for each entry for matching events in the ISC-EHB and gCMT with matching times (within +/- 1 minute) and locations (within +/- 0.5 degrees).
+2) Checking all mechanisms where the %DC of the gCMT moment tensor is >80% but the Kagan angle [Kagan, 1991] between the waveform-modelled solution and the gCMT is > 50 degrees.
+3) Removing any duplicate events that are not double shocks (highlighted in the catalogue as 'multiple point source').
+
 ## References:
 
 * McCaffrey, R., & Abers, G. (1988). Syn3: A program for inversion of teleseismic body waveforms on microcomputers.

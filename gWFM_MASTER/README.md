@@ -22,8 +22,9 @@ mth  = Waveform-modelling method used to determine the depth. This can be either
              or short-period waveforms, typically fitting P,pP,sP
              but not solving explicitly for the mechanism. Yields a
              hypocentral depth.
-       REG = Waveform modelling of body waves measured at regional distances.
-       INS = InSAR - will eventually be stripped out.
+       REG = Waveform modelling of body waves measured at regional distances - most
+             of these have been stripped out.
+       INS = InSAR - all should have been stripped out.
 
 ilon  = Longitude in the ISC-EHB bulletin [from Engdahl et al., 2020].
 
@@ -99,15 +100,16 @@ mth   = Mechanism by which the strike, dip and rake have been determined by
 
         BWF = Long-period body-waveform modelling of event mechanism,
               depth, source-time function and magnitude as a point
-              source. Usually using programs like MT5. Yields a centroid depth.
+              source using programs like MT5.
         DP  = Waveform modelling of the vertical-component broadband
               or short-period waveforms, typically fitting P,pP,sP
-              but not solving explicitly for the mechanism. Yields a
-              hypocentral depth.
+              but not solving explicitly for the mechanism.
         REG = Waveform modelling of body waves measured at regional distances.
         FM  = P-wave first motion polarities used to determine the earthquake
-              mechanism.
-        INS = InSAR - will eventually be stripped out.
+              mechanism, but synthetic seismograms used for the depth estimate.
+        INS = InSAR - Most events studied using radar should have been stripped
+              out unless radar was used to constrain the fault geometry when
+              solving for a multiple point source model using seismology.
 
 st    = Nodal plane strike determined by the global CMT.
 

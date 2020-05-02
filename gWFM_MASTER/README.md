@@ -29,7 +29,9 @@ ilon  = Longitude in the ISC-EHB bulletin [from Engdahl et al., 2020].
 
 ilat  = Latitude in the ISC-EHB bulletin.
 
-izc   = Hypocentral depth determined by the ISC-EHB bulletin.
+izc   = Hypocentral depth determined by the ISC bulletin.
+
+ieb   = Hypocentral depth determined by the ISC-EHB bulletin.
 
 mth   = ISC-EHB bulletin code for the method by which the depth is determined.
         The string is a combination of three upper-case letters and one

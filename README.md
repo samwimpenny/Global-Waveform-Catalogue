@@ -6,7 +6,7 @@ This is the central repository for the Global Waveform Catalogue (gWFM) v1.0, wh
 
 Most of the earthquakes in this database come from the literature, with some solutions from theses that are available online.
 
-The database is complimentary to other global catalogues of earthquakes, such as the global centroid moment tensor (gCMT) catalogue and the ISC-EHB catalogue. What this catalogue brings to the table are the well-constrained focal depths of moderate-magnitude earthquakes. A short manuscript describing origins of the gWFM database and how it compares to the gCMT and ISC-EHB is currently in prep.
+The database is complimentary to other global catalogues of earthquakes, such as the global centroid moment tensor (gCMT) catalogue and the ISC-EHB bulletin. What this catalogue brings to the table are the well-constrained focal depths of moderate-magnitude earthquakes. A short manuscript describing origins of the gWFM and how it compares to the gCMT and ISC-EHB is currently in preparation.
 
 ## Downloading the Catalogue:
 

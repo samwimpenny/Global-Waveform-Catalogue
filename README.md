@@ -28,6 +28,10 @@ from within the cloned directory.
 
 Alternatively, you could directly copy the catalogue file from the directory gWFM_MASTER/.
 
+## Citing the Catalogue:
+
+Currently there is no publication associated with the catalogue, though one is currently in preparation. If you want to cite the catalogue, use the Zenodo DOI listed at the top of the README.
+
 ## Catalogue Layout:
 
 A README file explaining the layout and syntax of the data table is provided in gWFM_MASTER.

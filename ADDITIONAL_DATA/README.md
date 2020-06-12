@@ -14,10 +14,11 @@ calculations and benchmarking in the paper Wimpenny and Watson
 ## Key for gWFM_INSAR.txt:
 
 - Depth estimates:
-  zwf = body-waveform modelled centroid depth
-  zcm = gCMT depth estimate
-  zwp = USGS W-phase depth estimate
-  zeh = ISC-EHB depth estimate
-  ztp = top of the fault plane derived from geodesy
-  zbt = bottom of the fault plane derived from geodesy
-  zmx = depth of maximum slip derived from geodesy
+
+    zwf = body-waveform modelled centroid depth
+    zcm = gCMT depth estimate
+    zwp = USGS W-phase depth estimate
+    zeh = ISC-EHB depth estimate
+    ztp = top of the fault plane derived from geodesy
+    zbt = bottom of the fault plane derived from geodesy
+    zmx = depth of maximum slip derived from geodesy

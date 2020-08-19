@@ -23,7 +23,6 @@ mth  = Waveform-modelling method used to determine the depth. This can be either
              but not solving explicitly for the mechanism. Yields a
              hypocentral depth.
        REG = Waveform modelling of body waves measured at regional distances.
-       INS = InSAR - will eventually be stripped out.
 
 ilon  = Longitude in the ISC-EHB bulletin [from Engdahl et al., 2020].
 
@@ -109,7 +108,6 @@ mth   = Mechanism by which the strike, dip and rake have been determined by
         REG = Waveform modelling of body waves measured at regional distances.
         FM  = P-wave first motion polarities used to determine the earthquake
               mechanism.
-        INS = InSAR - will eventually be stripped out.
 
 st    = Nodal plane strike determined by the global CMT.
 
@@ -127,6 +125,21 @@ mty   = Magnitude type: Mw = moment magnitude, mb = body-wave magnitude
         Ms = surface-wave magnitude.
 
 reference = Source of the waveform-modelling study.
+
+### A note on the earthquake magnitudes:
+
+- Magnitudes are derived from three different sources. If the earthquake
+  has been studied using long-period body-waveform modelling (i.e. has
+  the code BWF in the mechanism method column), then the magnitude is determined by
+  converting the moment release in Newton-metres into the moment magnitude
+  using the expression Hanks et al., 1979. If the earthquake has been
+  studied using vertical-component seismograms with a mechanism taken
+  from the global CMT catalogue (i.e. has the code gCMT in the mechanism
+  method column), then the moment magnitude is taken from the gCMT. Finally,
+  if the earthquake has been studied using vertical-component seismograms
+  and there is no gCMT mechanism or magnitude estimate, the magnitude is
+  quoted from the original source of information regarding this earthquake,
+  and is most often a body-wave magnitude (mb).
 
 ### A note on the reference:
 

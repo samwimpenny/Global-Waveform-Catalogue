@@ -1,4 +1,4 @@
-# README for the Global Waveform Catalogue v1.0
+# README for the Global Waveform Catalogue v1.1
 
 ## Catalogue Key - in column order:
 
@@ -111,7 +111,7 @@ mth   = Mechanism by which the strike, dip and rake have been determined by
 
 st    = Nodal plane strike determined by the global CMT.
 
-dp    = Nodel plane dip determined from global CMT.
+dp    = Nodal plane dip determined from global CMT.
 
 rk    = Nodal plane rake determined from global CMT.
 

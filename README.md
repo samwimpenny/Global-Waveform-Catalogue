@@ -1,14 +1,14 @@
-# Global-Waveform-Catalogue (gWFM) v1.0
+# Global-Waveform-Catalogue (gWFM)
 
 [![DOI](https://zenodo.org/badge/255866939.svg)](https://zenodo.org/badge/latestdoi/255866939)
 
 ## Catalogue Overview:
 
-This is the central repository for the Global Waveform Catalogue (gWFM) v1.0, which is a database of point-source fault-plane solutions and focal depths for moderate-magnitude earthquakes that have been modelled by an analyst using synthetic seismograms. Most earthquakes have been modelled using the program MT5 [see McCaffrey et al., 1991, McCaffrey and Abers 1988], which is described in detail by Molnar and Lyon-Caen 1989 and Taymaz et al., 1990. A number of smaller earthquakes (Mw < 5.3) have also been studied by modelling the P, pP and sP phases on vertical-component short-period or broadband seismograms [e.g. Maggi et al., 2000].
+This is the central repository for the Global Waveform Catalogue (gWFM) v1.1, which is a database of point-source fault-plane solutions and focal depths for moderate-magnitude earthquakes that have been modelled by an analyst using synthetic seismograms. Most earthquakes have been modelled using the program MT5 [see McCaffrey et al., 1991, McCaffrey and Abers 1988], which is described in detail by Molnar and Lyon-Caen 1989 and Taymaz et al., 1990. A number of smaller earthquakes (Mw < 5.3) have also been studied by modelling the P, pP and sP phases on vertical-component short-period or broadband seismograms [e.g. Maggi et al., 2000].
 
 Most of the earthquakes in this database come from the literature, with some solutions from theses that are available online.
 
-The database is complimentary to other global catalogues of earthquakes, such as the global centroid moment tensor (gCMT) catalogue and the ISC-EHB bulletin. What this catalogue brings to the table are the well-constrained focal depths of moderate-magnitude earthquakes. A short manuscript describing origins of the gWFM and how it compares to the gCMT and ISC-EHB is currently in preparation.
+The database is complimentary to other global catalogues of earthquakes, such as the global centroid moment tensor (gCMT) catalogue and the ISC-EHB bulletin. What this catalogue brings to the table are the well-constrained focal depths of moderate-magnitude earthquakes.
 
 ## Downloading the Catalogue:
 

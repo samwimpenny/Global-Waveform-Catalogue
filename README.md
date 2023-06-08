@@ -4,7 +4,7 @@
 
 ## Catalogue Overview:
 
-This is the central repository for the Global Waveform Catalogue (gWFM) v1.1, which is a database of point-source fault-plane solutions and focal depths for moderate-magnitude earthquakes that have been modelled by an analyst using synthetic seismograms. Most earthquakes have been modelled using the program MT5 [see McCaffrey et al., 1991, McCaffrey and Abers 1988], which is described in detail by Molnar and Lyon-Caen 1989 and Taymaz et al., 1990. A number of smaller earthquakes (Mw < 5.3) have also been studied by modelling the P, pP and sP phases on vertical-component short-period or broadband seismograms [e.g. Maggi et al., 2000].
+This is the central repository for the Global Waveform Catalogue (gWFM) v1.2, which is a database of point-source fault-plane solutions and focal depths for moderate-magnitude earthquakes that have been modelled by an analyst using synthetic seismograms. Most earthquakes have been modelled using the program MT5 [see McCaffrey et al., 1991, McCaffrey and Abers 1988], which is described in detail by Molnar and Lyon-Caen 1989 and Taymaz et al., 1990. A number of smaller earthquakes (Mw < 5.3) have also been studied by modelling the P, pP and sP phases on vertical-component short-period or broadband seismograms [e.g. Maggi et al., 2000].
 
 Most of the earthquakes in this database come from the literature, with some solutions from theses that are available online.
 
@@ -38,13 +38,13 @@ A README file explaining the layout and syntax of the data table is provided in 
 
 ## Contributing to the Catalogue:
 
-If you have tables of waveform-modelled earthquakes that are not included in the current version of the gWFM, then we are happy to accept contributions. The best way to contribute is to send a ASCII table of the solution information to sew57@cam.ac.uk with the following format:
+If you have tables of waveform-modelled earthquakes that are not included in the current version of the gWFM, then we are happy to accept contributions. The best way to contribute is to send a ASCII table of the solution information to Sam Wimpenny with the following format:
 
     yyyymmdd hhmm longitude latitude depth strike dip rake magnitude reference
 
 ## Quality Control and Errors in the Catalogue:
 
-The vast majority of this catalogue has been typed by hand, but there may remain some typographical errors. If you find any, please email sew57@cam.ac.uk with the line in error and what you think it should read.
+The vast majority of this catalogue has been typed by hand, but there may remain some typographical errors. If you find any, please email earswi@leeds.ac.uk with the line in error and what you think it should read.
 
 The quality control has included:
 1) Checking for each entry for matching events in the ISC-EHB and gCMT with matching times (within +/- 1 minute) and locations (within +/- 0.5 degrees).
